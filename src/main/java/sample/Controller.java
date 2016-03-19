@@ -24,7 +24,7 @@ public class Controller {
         ComboBox comboBox = new ComboBox();
         ComboBox comboBoxListener = new ComboBox();
 
-        comboBox.getStylesheets().add(getClass().getResource("ComboBoxStyle.css").toExternalForm());
+        comboBox.getStylesheets().add(getClass().getResource("/ComboBoxStyle.css").toExternalForm());
         comboBox.getItems().add("Всі об'єкти");
         comboBox.getItems().addAll("Andrii", "Java", "Java", "item4", "item5", "item6", "item7", "item8", "item9");
 
